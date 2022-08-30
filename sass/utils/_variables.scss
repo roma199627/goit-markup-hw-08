@@ -1,0 +1,82 @@
+:root{
+    --title-color: #212121;
+    --main-title-color:#757575;
+    --hover-footer-color:#2196F3;
+    --fonfocus-color: #FFFFFF;
+}
+.footer-title{
+    margin-bottom: 20px;
+   
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.connect__mail link
+{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--main-title-color) ; 
+    margin-left: 50px;
+    
+}
+
+.connect__tel
+ {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--main-title-color) ;
+    
+}
+.section-five__title{
+    font-weight: 500;
+   font-size: 16px;
+   line-height: 1.18;
+   letter-spacing: 0.03em;
+   color: #212121;
+   margin: 0px auto 10px auto;
+   }
+   .section-four-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color:var(--title-color) ; 
+ }
+ .section-three-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+     
+    
+ }
+ .section-three-item-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color:var(--title-color);
+    margin-bottom: 10px;
+    
+    text-transform: uppercase;
+ }
+ .section-two-title{
+  
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color:var(--fonfocus-color) ; 
+   text-transform: uppercase;
+   max-width: 696px;
+  margin: 0 auto;
+   
+}

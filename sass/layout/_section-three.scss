@@ -1,0 +1,40 @@
+.section-three{
+    padding-bottom: 94px;
+}
+
+ .section-three-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--main-title-color);
+    margin-right: 30px;
+     margin: 0 auto;
+ }
+ .section-three{
+    padding-top: 94px;
+    padding-top: 94px;
+ }
+ 
+ 
+ .section-three-title{
+     text-align: center;
+     padding-top: 0px;
+     margin-bottom: 50px;
+ }
+ .section-three-list {
+     display: flex;
+     
+    
+ }
+ 
+ .section-three-item{
+    
+     flex-basis: calc(100% / 4 - 30px);
+     margin-left: 0px;
+     margin-right: 30px;
+     width: 270px;         
+ }
+ .section-three-item:last-child{
+     margin-right: 0px;}
+     

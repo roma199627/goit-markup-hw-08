@@ -1,0 +1,33 @@
+.section-two {
+    
+    text-align:center;   
+    background-color:#2F303A; 
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+     rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+    ),
+      url(../img/Img-hed.jpg);
+      max-width: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+
+.section-two-btn{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color:var(--fonfocus-color) ;
+margin-top: 30px;
+background-color: #2196F3;
+border: none;
+padding: 10px 32px 10px 32px;
+border-radius: 4px;
+}
