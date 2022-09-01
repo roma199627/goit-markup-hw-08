@@ -38,15 +38,31 @@
        
         .company-list{
             display: flex;
+            flex-wrap: wrap;
         }
         .company-item{
+            width: 100%;
+           
+                width: calc((100% - 30px) / 2 ) ;
+              
             
-            margin-left: 30px;
+            @media screen and (min-width: 768px) {
+                width: calc((100% - 30px) / 3 ) ;
+              
+            } 
+            @media screen and (min-width: 1200px) {
+                width: calc((100% - 180px) / 6 ) ;
+          margin-right: 30px;
+            }    
+         
             
         }
-        .company-item:first-child{
-            margin-left: 0px;
-        }
+        // .company-item:first-child{
+        //     margin-right: 0px;
+        // }
+    // .company-item:last-child{
+    //     margin-right: 0px;
+    // }
         
             .company-logo{
                 width: 106px;
@@ -55,4 +71,4 @@
                 transition: fill 250ms  cubic-bezier(0.4, 0, 0.2, 1) ;
             }
         
-           
+            
