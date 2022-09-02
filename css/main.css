@@ -3,14 +3,10 @@
   --main-title-color:#757575;
   --hover-footer-color:#2196F3;
   --fonfocus-color: #FFFFFF;
-}
-
-.body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  color: #757575;
-  background-color: #FFFFFF;
+  --font-family: "Roboto", sans-serif;
+  --font-size: 36px;
+  --letter-spacing: 0.03em;
+  --line-height: 1.16px ;
 }
 
 h1, h2, h3, p, ul {
@@ -23,6 +19,14 @@ h1, h2, h3, p, ul {
   max-width: 100%;
   height: auto;
   width: 100%;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  background-color: #FFFFFF;
 }
 
 .container {
@@ -70,6 +74,10 @@ h1, h2, h3, p, ul {
   position: absolute;
 }
 .havigation__link.current::after {
+  color: var(--hover-footer-color);
+}
+
+.havigation__link.current {
   color: var(--hover-footer-color);
 }
 
@@ -309,16 +317,28 @@ h1, h2, h3, p, ul {
 }
 
 .section-two {
+  padding-top: 118px;
+  padding-bottom: 194px;
   text-align: center;
   background-color: #2F303A;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin: 0 auto;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Img-hed.jpg);
   max-width: 1600px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .section-two {
+    padding-top: 118px;
+    padding-bottom: 194px;
+  }
+}
+
+.section-two .container {
+  padding: 0px;
+  margin: 0px;
+}
+@media screen and (min-width: 480px) {
+  .section-two .container {
+    max-width: 100%;
+  }
 }
 
 .section-two-btn {
@@ -338,12 +358,23 @@ h1, h2, h3, p, ul {
 
 .section-two-title {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
   color: var(--fonfocus-color);
   text-transform: uppercase;
-  max-width: 696px;
-  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .section-two-title {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-two-title {
+    font-size: 26px;
+    line-height: 1.62;
+    max-width: 450px;
+  }
 }
 
 .section-three {
