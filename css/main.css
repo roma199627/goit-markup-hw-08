@@ -18,7 +18,6 @@ h1, h2, h3, p, ul {
   display: block;
   max-width: 100%;
   height: auto;
-  width: 100%;
 }
 
 .body {
@@ -99,7 +98,7 @@ h1, h2, h3, p, ul {
 }
 
 .havigation__list {
-  display: flex;
+  display: none;
   padding: 0;
   margin: 0;
   position: relative;
@@ -177,7 +176,7 @@ h1, h2, h3, p, ul {
 
 .connect__list {
   list-style: none;
-  display: flex;
+  display: none;
 }
 .connect__list:hover, .connect__list:focus {
   color: var(--hover-footer-color);
