@@ -236,10 +236,12 @@ h1, h2, h3, p, ul {
   fill: #2196F3;
 }
 
-.menu-btn {
+.menu-open {
   width: 40px;
   height: 40px;
   fill: #212121;
+  border: none;
+  background-color: #FFFFFF;
 }
 
 .mob-menu-hav__link {
