@@ -735,6 +735,90 @@ class="footer-input"
     </div>
 
  </div>
+ <div class="mob-backdrop">
+    <div class="container">
+    <div class="mob-modal">
+        <button type="button" class="mob-modal-close-btn" data-modal-close>
+            <svg class="mob-modal-x" width="11" height="11">
+                <use href="./img/icons.svg#icon-Vector4"></use>
+            </svg>
+        </button>
+        <p class="mob-modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form >
+            <div class="mob-modal-field">
+            <label  class="mob-model-label"> Имя </label>
+               <div class="input-wrap">
+            <input type="text"
+             class="mob-model-input"
+              name="user-name"
+               placeholder="" 
+               required
+               minlength="4"
+               >
+           
+            <svg class="mob-modal-icon"  width="18" height="18">
+                <use href="./img/icons.svg#icon-person" ></use>
+            </svg>
+        </div>
+        </div>
+        
+        <div class="mob-modal-field">
+            <label  class="mob-model-label">Телефон </label>
+            <div class="input-wrap">   
+            <input type="tel" 
+            class="mob-model-input"
+            name="user-tel"  
+            placeholder=""
+            required
+            minlength="4"
+            pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+             >
+             <svg class="mob-modal-icon"  width="13" height="13"   >
+                <use href="./img/icons.svg#icon-tel" ></use>
+            </svg>
+            </div>
+            
+        </div>
+            <div class="mob-modal-field">
+            <label  class="mob-model-label"> Почта </label>
+            <div class="input-wrap">
+            <input type="email" 
+            class="mob-model-input" 
+            name="user-email" 
+            placeholder=""
+            required
+            minlength="2"
+            >
+            <svg class="mob-modal-icon"  width="15" height="12">
+                <use href="./img/icons.svg#icon-emil" ></use>
+            </svg>
+        </div>
+    </div>
+        <div class="mob-modal-field">
+        <label  class="mob-model-label">Комментарий</label>
+        <textarea name="user-text" 
+        id="user-text"
+         cols="30"
+          rows="10"
+          placeholder="Введите текст"
+          class="mob-model-text" ></textarea>
+        </div>
+        <div class="mob-modal-field">
+            <input type="checkbox"
+             name="privacy" 
+              value="true"
+              id="privacy"
+               class="mob-modal-check is-hidden">
+            <label for="privacy" class="mob-check-text">Соглашаюсь с рассылкой и принимаю
+              <a href="" class="mob-label-text">Условия договора</a>  </label>
+        </div>
+            <div class="mob-modal-check-btn">
+            <button type="submit" class="mob-modal-btn">Отправить</button>
+        </div>
+        </form>
+    </div>
+ </div>
+</div>
  <script src="./js/modal.js"></script>
  <script src="./js/menu.js"></script>
 </body>
