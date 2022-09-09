@@ -96,23 +96,23 @@
         }
         .company-link{
            
-                background-color: #FFFFFF;
-                display: flex;
-                align-items: center;
-                 justify-content: center;
-                 fill: #AFB1B8;
-                 border-radius: 4px;
-                 border: 1px solid
-                 #AFB1B8 ;
-                 transition: border 250ms  cubic-bezier(0.4, 0, 0.2, 1), 
-                 fill 250ms  cubic-bezier(0.4, 0, 0.2, 1) ;
-                 &:hover, 
-                &:focus{
-                fill: var(--hover-footer-color);
-                border: 1px solid #2196F3;
-            border-radius: 4px;
+            //     background-color: #FFFFFF;
+            //     display: flex;
+            //     align-items: center;
+            //      justify-content: center;
+            //      fill: #AFB1B8;
+            //      border-radius: 4px;
+            //      border: 1px solid
+            //      #AFB1B8 ;
+            //      transition: border 250ms  cubic-bezier(0.4, 0, 0.2, 1), 
+            //      fill 250ms  cubic-bezier(0.4, 0, 0.2, 1) ;
+            //      &:hover, 
+            //     &:focus{
+            //     fill: var(--hover-footer-color);
+            //     border: 1px solid #2196F3;
+            // border-radius: 4px;
           
-                }
+            //     }
           
         }
         .company-item:first-child{
