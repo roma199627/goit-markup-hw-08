@@ -884,6 +884,12 @@ h1, h2, h3, p, ul {
     border-radius: 4px;
   }
 }
+.company-item .company-link:hover,
+.company-item .company-link :focus {
+  fill: var(--hover-footer-color);
+  border: 1px solid #2196F3;
+  border-radius: 4px;
+}
 @media screen and (min-width: 1200px) {
   .company-item {
     width: calc((100% - 180px) / 6);
