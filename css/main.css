@@ -984,6 +984,7 @@ h1, h2, h3, p, ul {
   padding-bottom: 60px;
   padding-top: 60px;
   background: #2F303A;
+  margin: 0;
 }
 
 @media screen and (min-width: 1200px) {
@@ -994,6 +995,7 @@ h1, h2, h3, p, ul {
 @media screen and (min-width: 768px) {
   .footer-two-address {
     margin-top: 20px;
+    padding-left: 0px;
   }
 }
 @media screen and (min-width: 480px) {
@@ -1002,14 +1004,11 @@ h1, h2, h3, p, ul {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .ubout-content {
-    text-align: center;
-  }
-}
 @media screen and (min-width: 768px) {
   .ubout-content {
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -1098,6 +1097,7 @@ h1, h2, h3, p, ul {
     flex-wrap: wrap;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .footer-icon {
     margin-left: 70px;
@@ -1105,26 +1105,46 @@ h1, h2, h3, p, ul {
 }
 @media screen and (min-width: 768px) {
   .footer-icon {
-    padding-top: 60px;
-    text-align: center;
-  }
-}
-@media screen and (min-width: 480px) {
-  .footer-icon {
-    padding-top: 60px;
-    text-align: center;
+    margin-left: 70px;
   }
 }
 
-.footer-title {
-  margin-bottom: 20px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
+@media screen and (min-width: 1200px) {
+  .footer-title {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 480px) {
+  .footer-title {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
 }
 
 .footer-two-logo {
@@ -1149,10 +1169,6 @@ h1, h2, h3, p, ul {
 .footer-two-item {
   margin-bottom: 9px;
   font-style: normal;
-}
-
-.footer-two-item:last-child {
-  margin: 0;
 }
 
 .footer-two-links {
@@ -1184,15 +1200,41 @@ h1, h2, h3, p, ul {
   fill: #FFFFFF;
 }
 
-.footer-input {
-  color: #FFFFFF;
-  width: 358px;
-  height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  background: #2F303A;
-  outline: none;
-  padding-left: 16px;
+@media screen and (min-width: 1200px) {
+  .footer-input {
+    color: #FFFFFF;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background: #2F303A;
+    outline: none;
+    padding-left: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-input {
+    color: #FFFFFF;
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background: #2F303A;
+    outline: none;
+    padding-left: 16px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .footer-input {
+    color: #FFFFFF;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background: #2F303A;
+    outline: none;
+    padding-left: 16px;
+  }
 }
 
 .email-title {
@@ -1202,6 +1244,9 @@ h1, h2, h3, p, ul {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 20px;
+}
+.footer-two-list {
+  margin-left: 0px;
 }
 
 .email-btn {
