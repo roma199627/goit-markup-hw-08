@@ -696,6 +696,7 @@ h1, h2, h3, p, ul {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
+  gap: 30px;
 }
 
 .section__five {
@@ -715,18 +716,35 @@ h1, h2, h3, p, ul {
     padding-top: 94px;
   }
 }
+.section__five > .container {
+  padding: 0px;
+}
 
 .section-five__item {
   width: 100%;
+}
+@media screen and (min-width: 480px) {
+  .section-five__item img {
+    width: 450px;
+    height: 460px;
+  }
 }
 @media screen and (min-width: 768px) {
   .section-five__item {
     width: calc((100% - 30px) / 2);
   }
+  .section-five__item img {
+    width: 354px;
+    height: 374px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .section-five__item {
     width: calc((100% - 90px) / 4);
+  }
+  .section-five__item img {
+    width: 270px;
+    height: 260px;
   }
 }
 
@@ -749,9 +767,12 @@ h1, h2, h3, p, ul {
   margin: 0px auto 16px 0px;
 }
 
-.section-five__stn {
-  padding-top: 30px;
-  padding-bottom: 30px;
+@media screen and (min-width: 480px) {
+  .section-five__stn {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
 }
 
 .komanda__link {
@@ -816,6 +837,7 @@ h1, h2, h3, p, ul {
     font-size: 28px;
     line-height: 1.17;
     text-align: center;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 480px) {
@@ -823,6 +845,7 @@ h1, h2, h3, p, ul {
     font-size: 28px;
     line-height: 1.17;
     text-align: center;
+    margin-bottom: 30px;
   }
 }
 
