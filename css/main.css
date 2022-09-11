@@ -34,9 +34,9 @@ h1, h2, h3, p, ul {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .container {
-    max-width: 448px;
+    max-width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -59,6 +59,10 @@ h1, h2, h3, p, ul {
   align-items: center;
   margin: 0;
   padding: 0;
+}
+
+.header .container {
+  margin: 0;
 }
 
 .havigation__link.current::after {
@@ -92,16 +96,45 @@ h1, h2, h3, p, ul {
   padding-top: 24px;
   padding-bottom: 25px;
 }
+@media screen and (min-width: 768px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    margin-right: 88px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+}
 
 .span {
   color: var(--hover-footer-color);
 }
 
-.havigation__list {
-  display: none;
-  padding: 0;
-  margin: 0;
-  position: relative;
+@media screen and (min-width: 320px) {
+  .havigation__list {
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+}
+@media screen and (min-width: 768px) {
+  .havigation__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .havigation__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
 }
 
 .header > .container {
@@ -117,8 +150,15 @@ h1, h2, h3, p, ul {
   margin-right: 0;
 }
 
-.havigation__item {
-  margin-right: 50px;
+@media screen and (min-width: 1200px) {
+  .havigation__item {
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .havigation__item {
+    margin-right: 50px;
+  }
 }
 
 .havigation {
@@ -174,20 +214,37 @@ h1, h2, h3, p, ul {
   color: var(--main-title-color);
 }
 
-.connect__list {
-  list-style: none;
-  display: none;
+@media screen and (min-width: 320px) {
+  .connect__list {
+    list-style: none;
+    display: none;
+  }
 }
 .connect__list:hover, .connect__list:focus {
   color: var(--hover-footer-color);
+}
+@media screen and (min-width: 768px) {
+  .connect__list {
+    list-style: none;
+    margin-left: 27px;
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .connect__list {
+    list-style: none;
+    display: flex;
+  }
 }
 
 .connect {
   margin-left: auto;
 }
 
-.connect__item {
-  margin-right: 50px;
+@media screen and (min-width: 768px) {
+  .connect__item {
+    margin-bottom: 8px;
+  }
 }
 
 .connect__item:last-child {
@@ -474,12 +531,12 @@ h1, h2, h3, p, ul {
   margin: 0px;
   margin: 0px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .section-two .container {
     max-width: 100%;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .section-two .container {
     max-width: 767px;
   }
@@ -607,7 +664,7 @@ h1, h2, h3, p, ul {
   color: #212121;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .section-three-item-title {
     font-weight: 700;
     font-size: 14px;
@@ -726,7 +783,7 @@ h1, h2, h3, p, ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   width: 100%;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .section-five__item {
     text-align: center;
     background: #FFFFFF;
@@ -781,7 +838,7 @@ h1, h2, h3, p, ul {
   margin: 0px auto 16px 0px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .section-five__stn {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -854,7 +911,7 @@ h1, h2, h3, p, ul {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .clients {
     font-size: 28px;
     line-height: 1.17;
@@ -913,7 +970,7 @@ h1, h2, h3, p, ul {
     border-radius: 4px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .company-link {
     width: 210px;
     height: 92px;
@@ -943,7 +1000,7 @@ h1, h2, h3, p, ul {
   padding-right: 15px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .company-item {
     display: flex;
     width: calc((100% - 30px) / 2);
@@ -998,7 +1055,7 @@ h1, h2, h3, p, ul {
     padding-left: 0px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-two-address {
     margin-top: 20px;
   }
@@ -1052,7 +1109,7 @@ h1, h2, h3, p, ul {
     text-align: center;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-item-links {
     width: 44px;
     height: 44px;
@@ -1077,7 +1134,7 @@ h1, h2, h3, p, ul {
     justify-content: center;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-list-links {
     display: flex;
     text-align: center;
@@ -1134,7 +1191,7 @@ h1, h2, h3, p, ul {
     color: #FFFFFF;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-title {
     margin-bottom: 20px;
     font-style: normal;
@@ -1201,6 +1258,12 @@ h1, h2, h3, p, ul {
 }
 
 @media screen and (min-width: 1200px) {
+  .form {
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .footer-input {
     color: #FFFFFF;
     width: 358px;
@@ -1215,7 +1278,8 @@ h1, h2, h3, p, ul {
 @media screen and (min-width: 768px) {
   .footer-input {
     color: #FFFFFF;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
@@ -1224,10 +1288,11 @@ h1, h2, h3, p, ul {
     padding-left: 16px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-input {
     color: #FFFFFF;
-    width: 358px;
+    width: 100%;
+    max-width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
@@ -1274,7 +1339,6 @@ h1, h2, h3, p, ul {
 
 @media screen and (min-width: 1200px) {
   .footer-email {
-    display: flex;
     margin-left: 105px;
   }
 }
@@ -1284,7 +1348,7 @@ h1, h2, h3, p, ul {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .benefits-item {
     width: 100%;
     height: 100%;

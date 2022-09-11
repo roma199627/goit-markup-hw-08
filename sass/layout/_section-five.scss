@@ -24,7 +24,7 @@
   }
   
   .section-five__item {
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 320px) {
         text-align: center;
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -79,7 +79,7 @@
        margin: 0px auto 16px 0px;
        }
        .section-five__stn{
-        @media screen and (min-width: 480px) {
+        @media screen and (min-width: 320px) {
            padding-top: 30px ;
            padding-bottom: 30px;
         text-align: center;
