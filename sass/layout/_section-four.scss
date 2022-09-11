@@ -24,9 +24,17 @@
   color:var(--title-color) ; 
 }
 .section-four {
-    
+  @media screen and (min-width: 320px)  {
+    display: none;
+  }
+  @media screen and (min-width: 768px)  {
+    display: none;
+  }
+  @media screen and (min-width: 1200px)  {
+    display: flex;
     padding-bottom: 94px;
     padding-top: 0px;
+  }
 }
 
  .content-text{
