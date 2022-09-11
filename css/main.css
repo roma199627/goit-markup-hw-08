@@ -61,10 +61,6 @@ h1, h2, h3, p, ul {
   padding: 0;
 }
 
-.header .container {
-  margin: 0;
-}
-
 .havigation__link.current::after {
   content: "";
   display: block;
@@ -240,10 +236,25 @@ h1, h2, h3, p, ul {
 .connect {
   margin-left: auto;
 }
+@media screen and (min-width: 768px) {
+  .connect {
+    margin-left: 96px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .connect {
+    margin-left: auto;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .connect__item {
     margin-bottom: 8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .connect__item {
+    margin-right: 30px;
   }
 }
 

@@ -1,5 +1,5 @@
 .header .container{
-    margin: 0;
+    // margin: 0;
 }
 .havigation__link.current::after{
     content: "";
@@ -71,7 +71,9 @@ padding-bottom: 25px ;
 
 .header {
     >.container{ display: flex;
-    align-items: center; }
+    align-items: center;
+    
+ }
       
 }
 .header{
@@ -179,13 +181,21 @@ transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1) ;
         }
   }
   .connect{
-    
+    @media screen and (min-width: 768px)  {
+        margin-left: 96px;
+        }
+        @media screen and (min-width: 1200px)  {
+            margin-left: auto;
+            }
       margin-left: auto;
   }
   .connect__item{
     @media screen and (min-width: 768px)  {
         margin-bottom: 8px;
         }
+        @media screen and (min-width: 1200px)  {
+           margin-right: 30px;
+            }
     //   margin-right: 50px;
   }
   .connect__item:last-child{
