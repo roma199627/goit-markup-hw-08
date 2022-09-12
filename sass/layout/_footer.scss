@@ -33,11 +33,13 @@ margin: 0;
       
        }
        @media screen and (min-width: 768px) {
-       flex-wrap: wrap;
-       margin: 0;
-       padding: 0;
+       margin-right: 165px;
+      
        
        }
+       @media screen and (min-width: 1200px) {
+      margin-right: 70px;
+    }
 }
 .footer-address{
     margin-top: 20px;
@@ -116,8 +118,7 @@ color:#FFFFFF ;
 {
     @media screen and (min-width: 1200px) {
      display: flex;
-  align-items: baseline;
-  
+ 
 }
 @media screen and (min-width: 768px) {
         display: flex;
@@ -134,12 +135,15 @@ color:#FFFFFF ;
     @media screen and (min-width: 1200px) {
      
        
- margin-left: 70px; 
+ 
     }
 
 @media screen and (min-width: 768px)  {
-     margin-left: 70px;
+  
 
+    }
+    @media screen and (min-width: 320px) {
+        margin-left: 0;
     }
 //     @media screen and (min-width: 480px) {
      
@@ -245,7 +249,7 @@ fill: #FFFFFF;
     }
 .form{
     @media screen and (min-width: 1200px)  {
-position: absolute;
+
     }
 }
 .footer-input{
@@ -253,6 +257,7 @@ position: absolute;
       
     color: #FFFFFF;
      width:358px ;
+     max-width: 358px;
      height:50px ;
      border: 1px solid rgba(255, 255, 255, 0.3);
  border-radius: 4px;
@@ -261,10 +266,10 @@ position: absolute;
  padding-left: 16px;
     }
     @media screen and (min-width: 768px)  {
-      
+      justify-content: center;
         color: #FFFFFF;
-        width: 100%;
-         max-width: 450px;
+        width:450px;
+       
          height:50px ;
          border: 1px solid rgba(255, 255, 255, 0.3);
      border-radius: 4px;
@@ -275,8 +280,8 @@ position: absolute;
         @media screen and (min-width: 320px)  {
       
             color: #FFFFFF;
-            width: 100%;
-            max-width: 358px;
+            width: 450px;
+            
              height:50px ;
              border: 1px solid rgba(255, 255, 255, 0.3);
          border-radius: 4px;
@@ -333,13 +338,16 @@ margin-left: 10px;
 }
 .footer-email{
     @media screen and (min-width: 1200px) {
-
-margin-left: 105px;
+display: flex;
+margin-left: 45px;
     }
     @media screen and (min-width: 768px) {
-     margin-top: 60px;
-       
+    
+    text-align: center;
         }
+        @media screen and (min-width: 320px) {
+          
+                }
 }
 
 
