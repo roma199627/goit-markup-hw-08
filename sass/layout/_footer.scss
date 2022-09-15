@@ -36,13 +36,14 @@ margin: 0;
       
       margin-bottom: 60px
        }
-    //    @media screen and (min-width: 768px) {
-    //    margin-right: 165px;
+       @media screen and (min-width: 768px) {
+       margin-right: 165px;
       
        
-    //    }
+       }
        @media screen and (min-width: 1200px) {
       text-align: left;
+      margin-right: 70px;
     }
 }
 .footer-address{
@@ -126,16 +127,16 @@ color:#FFFFFF ;
     // flex-wrap: wrap;
     @media screen and (min-width: 1200px) {
  display: flex;
- 
+ padding: 0px;
 }
-// @media screen and (min-width: 768px) {
-//         display: flex;
-//         flex-wrap: wrap;
-//        justify-content: center;
- 
+@media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+ padding: 0;
       
   
-// }
+}
 @media screen and (min-width: 320px) {
  
 // flex-wrap: wrap;
@@ -148,16 +149,16 @@ color:#FFFFFF ;
     // margin-bottom: 60px
     @media screen and (min-width: 1200px) {
     //     text-align: center;
-      
+    //   margin-left: 70px;
     //     margin-bottom: 60px
     //     text-align: center;
-      
+      margin-right: auto;
     //    margin-bottom: 60px
  
     }
 
 @media screen and (min-width: 768px)  {
-  margin-left: 165px;
+//   margin-left: 165px;
     // text-align: center;
       
     // margin-bottom: 60px
@@ -170,7 +171,20 @@ color:#FFFFFF ;
     }
    
     }
-
+.input-btn{
+    @media screen and (min-width: 1200px)  {
+       
+         
+          } 
+    @media screen and (min-width: 768px)  {
+        
+         
+          } 
+    @media screen and (min-width: 320px)  {
+      
+         
+          } 
+}
 // .footer-title{
 //     @media screen and (min-width: 1200px)  {
 //     margin-bottom: 20px;
@@ -322,6 +336,11 @@ margin-bottom: 20px;
 .footer-two-list{
   margin-left: 0px; 
 }
+.form{
+    @media screen and (min-width: 1200px)  {  
+        display: flex;
+    }
+}
 
 .email-btn{
 //     position: absolute;
@@ -350,7 +369,7 @@ line-height: 1.88;
 padding: 10px 62px 10px 29px;
 color: #FFFFFF;
 border: none;
-margin-left: 12px;
+// margin-left: 12px;
 }
 @media screen and (min-width: 768px) {
     // position: absolute;
@@ -366,7 +385,7 @@ margin-left: 12px;
     padding: 10px 62px 10px 29px;
     color: #FFFFFF;
     border: none;
-    margin-left: 12px;
+    // margin-left: 12px;
     }
     @media screen and (min-width: 320px) {
     //     position: absolute;
