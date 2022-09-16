@@ -1240,6 +1240,64 @@ h1, h2, h3, p, ul {
     margin-right: auto;
   }
 }
+@media screen and (min-width: 320px) {
+  .footer-icon {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .input-btn {
+    margin-left: 12px;
+    margin-top: 36px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .input-btn {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-title {
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 320px) {
+  .footer-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+
 .footer-two-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -1262,6 +1320,12 @@ h1, h2, h3, p, ul {
 .footer-two-item {
   margin-bottom: 9px;
   font-style: normal;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
 }
 
 .footer-two-links {
@@ -1326,14 +1390,40 @@ h1, h2, h3, p, ul {
   }
 }
 
-.email-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-align: center;
-  margin-bottom: 20px;
+@media screen and (min-width: 1200px) {
+  .email-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .email-title {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .email-title {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
 }
 
 .footer-two-list {
@@ -1341,15 +1431,16 @@ h1, h2, h3, p, ul {
 }
 
 @media screen and (min-width: 1200px) {
-  .form {
+  .form-cont {
     display: flex;
+    margin-right: 12px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .email-btn {
     width: 10px;
-    height: 50px;
+    height: 200px;
     background: #2196F3;
     border-radius: 4px;
     font-weight: 700;
@@ -1374,6 +1465,21 @@ h1, h2, h3, p, ul {
     border: none;
   }
 }
+@media screen and (min-width: 320px) {
+  .email-btn {
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    padding: 10px 62px 10px 29px;
+    color: #FFFFFF;
+    border: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .footer-email {
     display: flex;
