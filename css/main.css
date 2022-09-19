@@ -538,6 +538,7 @@ h1, h2, h3, p, ul {
   padding-top: 118px;
   padding-bottom: 194px;
   padding-left: 60px;
+  padding-right: 60px;
   background-color: #2F303A;
   background-position: center;
   background-size: cover;
@@ -565,8 +566,6 @@ h1, h2, h3, p, ul {
   .section-two {
     padding-bottom: 280px;
     padding-top: 200px;
-    padding-left: 452px;
-    padding-right: 352px;
     max-width: 100%;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/header.jpg);
   }
@@ -587,12 +586,12 @@ h1, h2, h3, p, ul {
     max-width: 100%;
   }
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   .section-two .container {
-    max-width: 767px;
+    max-width: 1200px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .section-two .container {
     max-width: 1200px;
   }
@@ -625,6 +624,13 @@ h1, h2, h3, p, ul {
   color: #FFFFFF;
   max-width: 422px;
 }
+@media screen and (min-width: 768px) {
+  .section-two-title {
+    font-size: 26px;
+    line-height: 1.62;
+    max-width: 422px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .section-two-title {
     font-family: "Roboto";
@@ -634,16 +640,13 @@ h1, h2, h3, p, ul {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    max-width: 695px;
+    max-width: 715px;
     color: #FFFFFF;
   }
 }
-@media screen and (min-width: 768px) {
-  .section-two-title {
-    font-size: 26px;
-    line-height: 1.62;
-    max-width: 422px;
-  }
+
+.sect-btn {
+  text-align: center;
 }
 
 .section-three {
