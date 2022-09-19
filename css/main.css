@@ -536,7 +536,7 @@ h1, h2, h3, p, ul {
 
 .section-two {
   padding-top: 118px;
-  padding-bottom: 194px;
+  padding-bottom: 118px;
   padding-left: 60px;
   padding-right: 60px;
   background-color: #2F303A;
@@ -552,7 +552,7 @@ h1, h2, h3, p, ul {
 }
 @media screen and (min-width: 768px) {
   .section-two {
-    padding: 118px 204px 198px 204px;
+    padding: 118px 170px 198px 170px;
     max-width: 1200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/header-tablet.jpg);
   }
@@ -566,6 +566,8 @@ h1, h2, h3, p, ul {
   .section-two {
     padding-bottom: 280px;
     padding-top: 200px;
+    padding-left: 240px;
+    padding-right: 240px;
     max-width: 100%;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/header.jpg);
   }
@@ -621,8 +623,8 @@ h1, h2, h3, p, ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  max-width: 360px;
   color: #FFFFFF;
-  max-width: 422px;
 }
 @media screen and (min-width: 768px) {
   .section-two-title {
