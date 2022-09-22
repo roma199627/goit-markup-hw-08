@@ -648,7 +648,7 @@ h1, h2, h3, p, ul {
 }
 
 .sect-btn {
-  text-align: center;
+  margin: 0px 260px 0px 260px;
 }
 
 .section-three {
