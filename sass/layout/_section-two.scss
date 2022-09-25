@@ -1,9 +1,9 @@
 .section-two {
   
-    padding-top: 118px;
-    padding-bottom: 118px;
-    padding-left: 60px;
-     padding-right: 60px;
+    // padding-top: 118px;
+    // padding-bottom: 118px;
+    // padding-left: 60px;
+    //  padding-right: 60px;
     background-color:#2F303A; 
     background-position: center;
     background-size: cover;
@@ -30,7 +30,7 @@
 
       // max-width: 1600px;
       @media screen and (min-width: 768px) {
-        padding: 118px 170px 198px 170px;
+        // padding: 118px 170px 198px 170px;
         max-width: 1200px;
         background-image: linear-gradient(
           rgba(47, 48, 58, 0.4),
@@ -50,10 +50,10 @@
         }   
     
     @media screen and (min-width: 1200px) {
-     padding-bottom: 280px;
-     padding-top: 200px;
-     padding-left: 240px;
-     padding-right: 240px;
+    //  padding-bottom: 280px;
+    //  padding-top: 200px;
+    //  padding-left: 240px;
+    //  padding-right: 240px;
    
     
      
@@ -110,20 +110,24 @@ border-radius: 4px;
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
-font-size: 26px;
+font-size: 22px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-max-width: 422px;
+max-width: 480px;
 color: #FFFFFF;
-
+ padding-top: 118px;
+    // padding-bottom: 118px;
+    padding-left: 60px;
+     padding-right: 60px;
 //  max-width: 422px;
  @media screen and (min-width: 768px) {
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1.62;
- max-width: 422px;
-
+ max-width: 768px;
+padding-left: 204px;
+padding-right: 204px;
 
 
 }
@@ -136,7 +140,11 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 
-max-width: 715px;
+padding-top: 200px;
+padding-left: 240px;
+padding-right: 240px;
+
+max-width: 1200px;
 color: #FFFFFF; 
   //  max-width: 360px;
 }
@@ -144,9 +152,14 @@ color: #FFFFFF;
 }
 .sect-btn{
   @media screen and (min-width: 320px) {
-    margin: 0px 164px 0px 164px;
+    padding: 0px 139px 118px 139px;
  }
+ @media screen and (min-width: 768px) {
+  padding: 0px 284px 118px 284px;
+}
+@media screen and (min-width: 1200px) {
+  padding: 0px 498px 200px 498px;
+}
 
-
-margin: 0px 260px 0px 260px;
+// padding:  0px 260px 0px 260px;
 }

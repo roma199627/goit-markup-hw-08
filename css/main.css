@@ -535,10 +535,6 @@ h1, h2, h3, p, ul {
 }
 
 .section-two {
-  padding-top: 118px;
-  padding-bottom: 118px;
-  padding-left: 60px;
-  padding-right: 60px;
   background-color: #2F303A;
   background-position: center;
   background-size: cover;
@@ -552,7 +548,6 @@ h1, h2, h3, p, ul {
 }
 @media screen and (min-width: 768px) {
   .section-two {
-    padding: 118px 170px 198px 170px;
     max-width: 1200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/header-tablet.jpg);
   }
@@ -564,10 +559,6 @@ h1, h2, h3, p, ul {
 }
 @media screen and (min-width: 1200px) {
   .section-two {
-    padding-bottom: 280px;
-    padding-top: 200px;
-    padding-left: 240px;
-    padding-right: 240px;
     max-width: 100%;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/header.jpg);
   }
@@ -618,19 +609,24 @@ h1, h2, h3, p, ul {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  max-width: 422px;
+  max-width: 480px;
   color: #FFFFFF;
+  padding-top: 118px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 @media screen and (min-width: 768px) {
   .section-two-title {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 1.62;
-    max-width: 422px;
+    max-width: 768px;
+    padding-left: 204px;
+    padding-right: 204px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -642,17 +638,27 @@ h1, h2, h3, p, ul {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    max-width: 715px;
+    padding-top: 200px;
+    padding-left: 240px;
+    padding-right: 240px;
+    max-width: 1200px;
     color: #FFFFFF;
   }
 }
 
-.sect-btn {
-  margin: 0px 260px 0px 260px;
-}
 @media screen and (min-width: 320px) {
   .sect-btn {
-    margin: 0px 164px 0px 164px;
+    padding: 0px 139px 118px 139px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sect-btn {
+    padding: 0px 284px 118px 284px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .sect-btn {
+    padding: 0px 498px 200px 498px;
   }
 }
 
