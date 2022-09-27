@@ -20,7 +20,7 @@ h1, h2, h3, p, ul {
   height: auto;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -163,6 +163,7 @@ h1, h2, h3, p, ul {
 }
 
 .havigation__link {
+  font-family: "Roboto";
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -181,6 +182,7 @@ h1, h2, h3, p, ul {
 }
 
 .connect__mail, .connect__tel {
+  font-family: "Roboto";
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -519,7 +521,6 @@ h1, h2, h3, p, ul {
 }
 
 .works__link {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -974,6 +975,33 @@ h1, h2, h3, p, ul {
   padding-top: 20px;
 }
 
+.section-five__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 0px auto 10px auto;
+}
+
+@media screen and (min-width: 320px) {
+  .clients {
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #212121;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clients {
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #212121;
+  }
+}
 @media screen and (min-width: 1200px) {
   .clients {
     font-style: normal;
@@ -984,22 +1012,6 @@ h1, h2, h3, p, ul {
     letter-spacing: 0.03em;
     margin-bottom: 50px;
     color: #212121;
-  }
-}
-@media screen and (min-width: 768px) {
-  .clients {
-    font-size: 28px;
-    line-height: 1.17;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-}
-@media screen and (min-width: 320px) {
-  .clients {
-    font-size: 28px;
-    line-height: 1.17;
-    text-align: center;
-    margin-bottom: 30px;
   }
 }
 
