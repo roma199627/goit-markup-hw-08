@@ -35,10 +35,9 @@
     }
 
     .company-link{
-        @media screen and (min-width: 1200px) {
-            width: 100%;
-            height: 100%;
-            width:170px ;
+        @media screen and (min-width: 320px) {
+         
+            width:210px ;
             height:92px ;
             background-color: #FFFFFF;
             display: flex;
@@ -55,8 +54,8 @@
             fill: var(--hover-footer-color);
             border: 1px solid #2196F3;
         border-radius: 4px;
-            }
-    }
+            }  
+        }    
         @media screen and (min-width: 768px) {
             width: 100%;
             height: 100%;
@@ -80,9 +79,10 @@
         }
           
         } 
-        @media screen and (min-width: 320px) {
-         
-            width:210px ;
+        @media screen and (min-width: 1200px) {
+            width: 100%;
+            height: 100%;
+            width:170px ;
             height:92px ;
             background-color: #FFFFFF;
             display: flex;
@@ -99,8 +99,10 @@
             fill: var(--hover-footer-color);
             border: 1px solid #2196F3;
         border-radius: 4px;
-            }  
-        }    
+            }
+    }
+      
+       
         }
     
         .company-list{
@@ -123,13 +125,13 @@
                
             //     display: flex;
                 
-                width: calc((100% - 30px)/ 2 ) ;
+                width: calc((100% - 30px) / 2 ) ;
              
                 
             }
             
             @media screen and (min-width: 768px) {
-                width: calc((100% - 60px)/ 3 ) ;
+                width: calc((100% - 60px) / 3 ) ;
                 
             //     width: 100%;
             //     height: 100%;
@@ -151,6 +153,9 @@
     }
         
             .company-logo{
+                @media screen and (min-width: 768px) {
+                    
+                }
                 @media screen and (min-width: 1200px) {
                     width: 106px;
                     height: 60px;
@@ -159,11 +164,8 @@
                       text-align: center;
                 }
                 
-                  @media screen and (min-width: 768px) {
-                    
-                  }
-                    @media screen and (min-width: 1200px) {
-                    }
+                  
+                  
             }
         
             
