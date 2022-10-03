@@ -320,24 +320,33 @@ color: #2196F3;
 }
 .soc-item{
     margin-top: 64px;
- margin-left: 20px;
+ 
 }
 .soc-list{
     display: flex;
 }
-.soc-item{
-    position: relative;
-    margin-right: 20px;
+.soc-item:not(:last-child){
+    // position: relative;
+    // margin-right: 20px;
+    
+    // padding-right: 10px;
+    // border: 1px solid rgba(33, 33, 33, 0.2);
 }
-.soc-item::before {
-    position: absolute;
-    content: '';
-    width: 22px;
-height: 0px;
-border: 1px solid rgba(33, 33, 33, 0.2);
-transform: rotate(90deg);
-top: 10px;
-left: -30px;
+.soc-link-span{
+    border: 1px solid rgba(33, 33, 33, 0.2);   
+    transform: rotate(90deg);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+// .soc-item::before {
+//     position: absolute;
+//     content: '';
+//     width: 22px;
+// height: 0px;
+// border: 1px solid rgba(33, 33, 33, 0.2);
+// transform: rotate(90deg);
+// top: 10px;
+// left: -30px;
 
-}
+// }
 
