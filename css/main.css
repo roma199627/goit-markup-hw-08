@@ -270,7 +270,7 @@ body {
 
 .mob-menu {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   width: 100vw;
   height: 100vh;
   background-color: #FFFFFF;
@@ -279,9 +279,10 @@ body {
   padding-top: 48px;
 }
 .mob-menu > .container {
-  display: block;
+  display: flex;
   flex-direction: column;
   height: 100%;
+  justify-content: space-between;
   overflow: auto;
 }
 
@@ -379,12 +380,10 @@ body {
   color: #2196F3;
 }
 
-.soc-item {
-  margin-top: 64px;
-}
-
 .soc-list {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 64px;
 }
 
 .soc-link-span {
@@ -1524,7 +1523,6 @@ body {
   .benefits-item {
     width: 100%;
     height: 100%;
-    width: 450px;
     height: 120px;
     background-color: #F5F4FA;
     display: flex;
