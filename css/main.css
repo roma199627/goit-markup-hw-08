@@ -275,6 +275,7 @@ body {
   height: 100vh;
   background-color: #FFFFFF;
   top: 0;
+  left: 0;
   padding-bottom: 48px;
   padding-top: 48px;
 }
