@@ -563,6 +563,8 @@ body {
   background-color: #2F303A;
   background-position: center;
   background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
   max-width: 100%;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/header-mobil.jpg);
 }
@@ -601,7 +603,7 @@ body {
 }
 @media screen and (min-width: 320px) {
   .section-two .container {
-    max-width: 100%;
+    width: 1200px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -611,7 +613,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .section-two .container {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
@@ -641,17 +643,14 @@ body {
   text-transform: uppercase;
   max-width: 480px;
   color: #FFFFFF;
-  padding-top: 118px;
-  padding-left: 60px;
-  padding-right: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 768px) {
   .section-two-title {
     font-size: 22px;
     line-height: 1.62;
     max-width: 768px;
-    padding-left: 204px;
-    padding-right: 204px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -661,12 +660,8 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
-    padding-top: 200px;
-    padding-left: 240px;
-    padding-right: 240px;
-    max-width: 1200px;
+    width: 696px;
     color: #FFFFFF;
   }
 }
@@ -1596,7 +1591,8 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 528px;
+    width: 100%;
+    max-width: 528px;
     min-height: 581px;
     background-color: #FFFFFF;
     border-radius: 4px;
