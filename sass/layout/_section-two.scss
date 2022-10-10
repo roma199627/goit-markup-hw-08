@@ -78,14 +78,14 @@
   .section-two .container{
    padding: 0px;
     
-    margin: 0px;
+    margin: 0 auto;
     @media screen and (min-width: 320px) {
-      width: 1200px ;
+      width: 480px ;
   }
-  margin: 0px;
+ 
    
   @media screen and (min-width: 768px) {
-    max-width: 1200px ;
+    width: 768px ;
  }
  @media screen and (min-width: 1200px) {
 width: 1200px ;
@@ -100,7 +100,7 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
 color:var(--fonfocus-color) ;
-margin-top: 30px;
+
 background-color: #2196F3;
 border: none;
 padding: 10px 32px 10px 32px;
@@ -115,9 +115,9 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-max-width: 480px;
+max-width: 360px;
 color: #FFFFFF;
- 
+ margin-bottom: 30px;
     // padding-bottom: 118px;
     margin-left: auto;
     margin-right: auto;
@@ -125,7 +125,7 @@ color: #FFFFFF;
  @media screen and (min-width: 768px) {
   font-size: 22px;
   line-height: 1.62;
- max-width: 768px;
+ max-width: 360px;
 
 
 
@@ -141,7 +141,7 @@ letter-spacing: 0.06em;
 
 
 
-width: 696px;
+max-width: 696px;
 color: #FFFFFF; 
   //  max-width: 360px;
 }
@@ -149,13 +149,13 @@ color: #FFFFFF;
 }
 .sect-btn{
   @media screen and (min-width: 320px) {
-    padding: 0px 139px 118px 139px;
+    // padding: 0px 139px 118px 139px;
  }
  @media screen and (min-width: 768px) {
-  padding: 0px 284px 118px 284px;
+  // padding: 0px 284px 118px 284px;
 }
 @media screen and (min-width: 1200px) {
-  padding: 0px 498px 200px 498px;
+  // padding: 0px 498px 200px 498px;
 }
 
 // padding:  0px 260px 0px 260px;
