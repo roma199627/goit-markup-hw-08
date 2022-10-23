@@ -44,6 +44,7 @@ margin: 0;
        @media screen and (min-width: 1200px) {
       text-align: left;
       margin-right: 70px;
+      margin-bottom: 0px;
     }
 }
 .footer-address{
@@ -213,7 +214,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
+text-align: left;
 color: #FFFFFF;
     }
  
@@ -353,7 +354,7 @@ text-align: left;
      } 
 }
 .email-btn{
-   
+    letter-spacing: 0.06em; 
 width: 200px;
 height: 50px;
 background: #2196F3;
