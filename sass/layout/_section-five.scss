@@ -2,7 +2,7 @@
 .section-five__list{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
+   
  gap: 30px;
 }
 .section__five {
@@ -62,12 +62,22 @@
   }
   .section-five__titles{
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    font-size: 28px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
-    color:var(--title-color)
+    color:var(--title-color);
+
+    @media screen and (min-width: 1200px) {
+      
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;
+        text-align: center;
+        color:var(--title-color); 
+    } 
     }
     
        .section-five__text{
