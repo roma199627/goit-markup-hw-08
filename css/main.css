@@ -345,8 +345,6 @@ body {
 
 @media screen and (min-width: 320px) {
   .menu-open {
-    width: 24px;
-    height: 16px;
     fill: #212121;
     display: flex;
     border: none;
