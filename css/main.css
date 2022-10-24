@@ -79,17 +79,11 @@ body {
   color: var(--hover-footer-color);
 }
 
-.logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+@media screen and (min-width: 320px) {
+  .logo {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 @media screen and (min-width: 768px) {
   .logo {
@@ -102,13 +96,25 @@ body {
     padding-bottom: 25px;
   }
 }
-
-.span {
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+}
+.logo .span {
   color: var(--hover-footer-color);
 }
-
 @media screen and (min-width: 320px) {
-  .havigation__list {
+  .logo .havigation__list {
     display: none;
     padding: 0;
     margin: 0;
@@ -116,7 +122,7 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
-  .havigation__list {
+  .logo .havigation__list {
     display: flex;
     padding: 0;
     margin: 0;
@@ -124,46 +130,40 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .havigation__list {
+  .logo .havigation__list {
     display: flex;
     padding: 0;
     margin: 0;
     position: relative;
   }
 }
-
-.header > .container {
+.logo .header > .container {
   display: flex;
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
 }
-
-.header {
+.logo .header {
   border: 1px solid #ECECEC;
 }
-
-.havigation__item:last-child {
+.logo .havigation__item:last-child {
   margin-right: 0;
 }
-
 @media screen and (min-width: 1200px) {
-  .havigation__item {
+  .logo .havigation__item {
     margin-right: 50px;
   }
 }
 @media screen and (min-width: 768px) {
-  .havigation__item {
+  .logo .havigation__item {
     margin-right: 50px;
   }
 }
-
-.havigation {
+.logo .havigation {
   display: flex;
   align-items: center;
 }
-
-.havigation__link {
+.logo .havigation__link {
   font-family: "Roboto";
   font-weight: 500;
   line-height: 1.14;
@@ -175,15 +175,14 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
-.havigation__link:hover {
+.logo .havigation__link:hover {
   color: var(--hover-footer-color);
 }
-.havigation__link:focus {
+.logo .havigation__link:focus {
   color: var(--hover-footer-color);
 }
-
 @media screen and (min-width: 768px) {
-  .connect__mail, .connect__tel {
+  .logo .connect__mail, .logo .connect__tel {
     font-family: "Roboto";
     font-weight: 500;
     line-height: 1.14;
@@ -195,13 +194,13 @@ body {
     fill: #757575;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .connect__mail:hover, .connect__mail:focus, .connect__tel:hover, .connect__tel:focus {
+  .logo .connect__mail:hover, .logo .connect__mail:focus, .logo .connect__tel:hover, .logo .connect__tel:focus {
     fill: var(--hover-footer-color);
     color: var(--hover-footer-color);
   }
 }
 @media screen and (min-width: 1200px) {
-  .connect__mail, .connect__tel {
+  .logo .connect__mail, .logo .connect__tel {
     font-family: "Roboto";
     font-weight: 500;
     line-height: 1.14;
@@ -213,85 +212,77 @@ body {
     fill: #757575;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .connect__mail:hover, .connect__mail:focus, .connect__tel:hover, .connect__tel:focus {
+  .logo .connect__mail:hover, .logo .connect__mail:focus, .logo .connect__tel:hover, .logo .connect__tel:focus {
     fill: var(--hover-footer-color);
     color: var(--hover-footer-color);
   }
 }
-
-.connect__mail link {
+.logo .connect__mail link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   margin-left: 50px;
 }
-
-.connect__tel {
+.logo .connect__tel {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
-
 @media screen and (min-width: 320px) {
-  .connect__list {
+  .logo .connect__list {
     list-style: none;
     display: none;
   }
 }
-.connect__list:hover, .connect__list:focus {
+.logo .connect__list:hover, .logo .connect__list:focus {
   color: var(--hover-footer-color);
 }
 @media screen and (min-width: 768px) {
-  .connect__list {
+  .logo .connect__list {
     list-style: none;
     margin-left: 27px;
     display: block;
   }
 }
 @media screen and (min-width: 1200px) {
-  .connect__list {
+  .logo .connect__list {
     list-style: none;
     display: flex;
   }
 }
-
-.connect {
+.logo .connect {
   margin-left: auto;
 }
 @media screen and (min-width: 768px) {
-  .connect {
+  .logo .connect {
     margin-left: auto;
   }
 }
 @media screen and (min-width: 1200px) {
-  .connect {
+  .logo .connect {
     margin-left: auto;
   }
 }
-
 @media screen and (min-width: 768px) {
-  .connect__item {
+  .logo .connect__item {
     margin-bottom: 8px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .connect__item {
+  .logo .connect__item {
     margin-right: 30px;
   }
 }
-
-.connect__item:last-child {
+.logo .connect__item:last-child {
   margin: 0;
 }
-
-.connect__icon {
+.logo .connect__icon {
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.mob-menu {
+.logo .mob-menu {
   position: fixed;
   z-index: 2;
   width: 100vw;
@@ -302,7 +293,7 @@ body {
   padding-bottom: 48px;
   padding-top: 48px;
 }
-.mob-menu > .container {
+.logo .mob-menu > .container {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -310,19 +301,18 @@ body {
   justify-content: space-between;
   overflow: auto;
 }
-
 @media screen and (min-width: 1200px) {
-  .mod-menu-btn {
+  .logo .mod-menu-btn {
     display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  .mod-menu-btn {
+  .logo .mod-menu-btn {
     display: none;
   }
 }
 @media screen and (min-width: 320px) {
-  .mod-menu-btn {
+  .logo .mod-menu-btn {
     margin-left: auto;
     width: 30px;
     height: 30px;
@@ -338,13 +328,12 @@ body {
     right: 8px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .mod-menu-btn:focus, .mod-menu-btn:hover {
+  .logo .mod-menu-btn:focus, .logo .mod-menu-btn:hover {
     fill: #2196F3;
   }
 }
-
 @media screen and (min-width: 320px) {
-  .menu-open {
+  .logo .menu-open {
     fill: #212121;
     display: flex;
     border: none;
@@ -352,7 +341,7 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
-  .menu-open {
+  .logo .menu-open {
     width: 40px;
     height: 40px;
     fill: #212121;
@@ -361,41 +350,35 @@ body {
     background-color: #FFFFFF;
   }
 }
-
-.mob-menu-hav__link {
+.logo .mob-menu-hav__link {
   font-weight: 500;
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: #212121;
 }
-
-.mob-menu-hav__item:not(:last-child) {
+.logo .mob-menu-hav__item:not(:last-child) {
   margin-bottom: 32px;
 }
-
-.mob-menu-connect__tel {
+.logo .mob-menu-connect__tel {
   font-weight: 500;
   font-size: 34px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: #2196F3;
 }
-
-.mob-menu-connect__item:not(:last-child) {
+.logo .mob-menu-connect__item:not(:last-child) {
   margin-bottom: 32px;
   margin-top: 32px;
 }
-
-.mob-menu-connect__mail {
+.logo .mob-menu-connect__mail {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.02em;
   color: #757575;
 }
-
-.soc-link {
+.logo .soc-link {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
