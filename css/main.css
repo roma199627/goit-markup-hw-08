@@ -81,14 +81,24 @@ body {
 
 @media screen and (min-width: 320px) {
   .logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
     padding-top: 16px;
     padding-bottom: 16px;
   }
 }
 @media screen and (min-width: 768px) {
   .logo {
-    font-size: 26px;
-    line-height: 1.19;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--title-color);
     margin-right: 88px;
@@ -110,11 +120,13 @@ body {
     padding-bottom: 25px;
   }
 }
-.logo .span {
+
+.span {
   color: var(--hover-footer-color);
 }
+
 @media screen and (min-width: 320px) {
-  .logo .havigation__list {
+  .havigation__list {
     display: none;
     padding: 0;
     margin: 0;
@@ -122,7 +134,7 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
-  .logo .havigation__list {
+  .havigation__list {
     display: flex;
     padding: 0;
     margin: 0;
@@ -130,40 +142,46 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .logo .havigation__list {
+  .havigation__list {
     display: flex;
     padding: 0;
     margin: 0;
     position: relative;
   }
 }
-.logo .header > .container {
+
+.header > .container {
   display: flex;
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
 }
-.logo .header {
+
+.header {
   border: 1px solid #ECECEC;
 }
-.logo .havigation__item:last-child {
+
+.havigation__item:last-child {
   margin-right: 0;
 }
+
 @media screen and (min-width: 1200px) {
-  .logo .havigation__item {
+  .havigation__item {
     margin-right: 50px;
   }
 }
 @media screen and (min-width: 768px) {
-  .logo .havigation__item {
+  .havigation__item {
     margin-right: 50px;
   }
 }
-.logo .havigation {
+
+.havigation {
   display: flex;
   align-items: center;
 }
-.logo .havigation__link {
+
+.havigation__link {
   font-family: "Roboto";
   font-weight: 500;
   line-height: 1.14;
@@ -175,14 +193,15 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
-.logo .havigation__link:hover {
+.havigation__link:hover {
   color: var(--hover-footer-color);
 }
-.logo .havigation__link:focus {
+.havigation__link:focus {
   color: var(--hover-footer-color);
 }
+
 @media screen and (min-width: 768px) {
-  .logo .connect__mail, .logo .connect__tel {
+  .connect__mail, .connect__tel {
     font-family: "Roboto";
     font-weight: 500;
     line-height: 1.14;
@@ -194,13 +213,13 @@ body {
     fill: #757575;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .logo .connect__mail:hover, .logo .connect__mail:focus, .logo .connect__tel:hover, .logo .connect__tel:focus {
+  .connect__mail:hover, .connect__mail:focus, .connect__tel:hover, .connect__tel:focus {
     fill: var(--hover-footer-color);
     color: var(--hover-footer-color);
   }
 }
 @media screen and (min-width: 1200px) {
-  .logo .connect__mail, .logo .connect__tel {
+  .connect__mail, .connect__tel {
     font-family: "Roboto";
     font-weight: 500;
     line-height: 1.14;
@@ -212,77 +231,85 @@ body {
     fill: #757575;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .logo .connect__mail:hover, .logo .connect__mail:focus, .logo .connect__tel:hover, .logo .connect__tel:focus {
+  .connect__mail:hover, .connect__mail:focus, .connect__tel:hover, .connect__tel:focus {
     fill: var(--hover-footer-color);
     color: var(--hover-footer-color);
   }
 }
-.logo .connect__mail link {
+
+.connect__mail link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   margin-left: 50px;
 }
-.logo .connect__tel {
+
+.connect__tel {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
+
 @media screen and (min-width: 320px) {
-  .logo .connect__list {
+  .connect__list {
     list-style: none;
     display: none;
   }
 }
-.logo .connect__list:hover, .logo .connect__list:focus {
+.connect__list:hover, .connect__list:focus {
   color: var(--hover-footer-color);
 }
 @media screen and (min-width: 768px) {
-  .logo .connect__list {
+  .connect__list {
     list-style: none;
     margin-left: 27px;
     display: block;
   }
 }
 @media screen and (min-width: 1200px) {
-  .logo .connect__list {
+  .connect__list {
     list-style: none;
     display: flex;
   }
 }
-.logo .connect {
+
+.connect {
   margin-left: auto;
 }
 @media screen and (min-width: 768px) {
-  .logo .connect {
+  .connect {
     margin-left: auto;
   }
 }
 @media screen and (min-width: 1200px) {
-  .logo .connect {
+  .connect {
     margin-left: auto;
   }
 }
+
 @media screen and (min-width: 768px) {
-  .logo .connect__item {
+  .connect__item {
     margin-bottom: 8px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .logo .connect__item {
+  .connect__item {
     margin-right: 30px;
   }
 }
-.logo .connect__item:last-child {
+
+.connect__item:last-child {
   margin: 0;
 }
-.logo .connect__icon {
+
+.connect__icon {
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.logo .mob-menu {
+
+.mob-menu {
   position: fixed;
   z-index: 2;
   width: 100vw;
@@ -293,7 +320,7 @@ body {
   padding-bottom: 48px;
   padding-top: 48px;
 }
-.logo .mob-menu > .container {
+.mob-menu > .container {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -301,18 +328,19 @@ body {
   justify-content: space-between;
   overflow: auto;
 }
+
 @media screen and (min-width: 1200px) {
-  .logo .mod-menu-btn {
+  .mod-menu-btn {
     display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  .logo .mod-menu-btn {
+  .mod-menu-btn {
     display: none;
   }
 }
 @media screen and (min-width: 320px) {
-  .logo .mod-menu-btn {
+  .mod-menu-btn {
     margin-left: auto;
     width: 30px;
     height: 30px;
@@ -328,12 +356,13 @@ body {
     right: 8px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .logo .mod-menu-btn:focus, .logo .mod-menu-btn:hover {
+  .mod-menu-btn:focus, .mod-menu-btn:hover {
     fill: #2196F3;
   }
 }
+
 @media screen and (min-width: 320px) {
-  .logo .menu-open {
+  .menu-open {
     fill: #212121;
     display: flex;
     border: none;
@@ -341,7 +370,7 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
-  .logo .menu-open {
+  .menu-open {
     width: 40px;
     height: 40px;
     fill: #212121;
@@ -350,35 +379,41 @@ body {
     background-color: #FFFFFF;
   }
 }
-.logo .mob-menu-hav__link {
+
+.mob-menu-hav__link {
   font-weight: 500;
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.logo .mob-menu-hav__item:not(:last-child) {
+
+.mob-menu-hav__item:not(:last-child) {
   margin-bottom: 32px;
 }
-.logo .mob-menu-connect__tel {
+
+.mob-menu-connect__tel {
   font-weight: 500;
   font-size: 34px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: #2196F3;
 }
-.logo .mob-menu-connect__item:not(:last-child) {
+
+.mob-menu-connect__item:not(:last-child) {
   margin-bottom: 32px;
   margin-top: 32px;
 }
-.logo .mob-menu-connect__mail {
+
+.mob-menu-connect__mail {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.02em;
   color: #757575;
 }
-.logo .soc-link {
+
+.soc-link {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
@@ -902,7 +937,7 @@ body {
   .section-five__item img {
     width: 450px;
     width: 100%;
-    height: 460px;
+    height: auto;
   }
 }
 @media screen and (min-width: 768px) {
